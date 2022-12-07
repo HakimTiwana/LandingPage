@@ -1,4 +1,4 @@
-import SingleImage from "../components/Intro/SingleImage";
+import VideoBackground from "../components/Intro/VideoBackground";
 import Layout from "../components/Sections/Layout";
 import Loader from "../components/Sections/Loader";
 import Header from "../components/Sections/Header";
@@ -22,11 +22,11 @@ import ToTop from "../components/Sections/ToTop";
 const Index = () => (
   <Layout
     pageTitle="Naxos - React Next JS App Landing Page Template"
-    colorSchema="/assets/colors/blue.css"
+    colorSchema="/assets/colors/red.css"
   >
     <Loader />
     <Header nav="home" />
-    <SingleImage />
+    <VideoBackground />
     {/*<Clients className="section-box bg-grey" />*/}
     <Features />
     <ParallaxVideo />
